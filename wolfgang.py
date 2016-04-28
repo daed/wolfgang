@@ -1,5 +1,6 @@
 import switch
 import cmds
+from time import sleep
 
 play = False
 
@@ -9,7 +10,9 @@ while True:
             play = True
             # start playing
             cmds.start_player()
+            sleep(1)
         else:
             play = False
             # stop playing
             cmds.stop_player()
+            sleep(1)
