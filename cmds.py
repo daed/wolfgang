@@ -1,4 +1,4 @@
-
+from subprocess import Popen
 
 def stop_player():
     Popen(["mpc", "stop"])
