@@ -5,6 +5,7 @@ from time import sleep
 play = False
 
 while True:
+    sleep(0.02)
     if switch.button_state():
         if play is False:
             play = True
